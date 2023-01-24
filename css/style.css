@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* ...............part-1 nav START................ */
+.mainnav{
+    width: 100%;
+    height: 60px;
+    background: #f6f9f9;
+    display: flex;
+    justify-content: center;
+}
+.mainnav .navbar{
+    width: 960px;
+    display: flex;
+}
+.mainnav .navbar .logo{
+    width: 190px;
+    height: 100%;
+    padding: 11px 0;
+}
+.mainnav .navbar .logo img{
+    width: 155px;
+}
+.mainnav .navbar .menu{
+    width: 770px;
+}
+.mainnav .navbar .menu ul{
+    height: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+.mainnav .navbar .menu li{
+    margin-left: 34px;
+    font-size: 14px;
+}
+.mainnav .navbar .menu li a{
+    color: #000;
+}
+ /*..........part-1 nav END..................*/
+/* ..........part-2 face START..............*/
+.main{
+    width: 1320px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    width: 100%;
+    height: 100%;
+    /* opacity: .92; */
+}
+.main .overlay{
+    width: 600px;
+    height: 100%;
+    /* background: rgba(255, 4, 4, 0.411); */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .overlay h1{
+    text-align: center;
+    margin: 195px 0 35px 0;
+    font-size: 120px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.main .overlay .xline{
+    width: 100%;
+    height: 2px;
+    background: #15a4fa;
+    z-index: 2;
+}
+.main .overlay p{
+    text-align: center;
+    margin: 30px 0 67px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.main .overlay .button{
+    display: flex;
+    justify-content: center;
+}   
+.main .overlay .button a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background: transparent;
+    align-self: center;
+    padding: 21px 33px 20px 35px;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    transition: .3s;
+}
+.main .overlay .button a:hover{
+    background: #15a4fa;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.main .overlay .darrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+    margin-bottom: 91px;
+}
+.main .overlay .darrow i{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    transition: .3s;
+    margin: 0;
+}
+.main .overlay .darrow i:hover{
+    color: #15a4fa;
+}
+ /*..........part-2 face END......................*/
+/*...........part-3 about1 START..................*/
+.about1{
+    width: 1320px;
+    height: 340px;
+    background: #f6f9f9;
+    margin: 0 auto;
+}
+.about1 h2{
+    margin: 0;
+    padding: 80px 0 30px 0;
+    color: #2d3950;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.about1 p{
+    margin: 0 auto;
+    width: 916px;
+    height: 84px;
+    color: #999999;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+ /*..........part-3 about1 END................. */
+/*...........part-4 about2 START...............*/
+.about2{
+    width: 1320px;
+    height: 340px;
+    background: #ffffff;
+    margin: 0;
+    padding: 65px 0;
+}
+.about2 .ab2container{
+    width: 957px;
+    height: 210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about2 .ab2container .ab2m{
+    width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.about2 .ab2container .ab2m img{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+.about2 .ab2container .ab2m h4{
+    height: 20px;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 26px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+.about2 .ab2container .ab2m p{
+    height: 36px;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+ /*.......part-4 about2 END..................*/
+/*........part-5 showcase START............ */
+.showcase{
+    width: 1320px;
+    height: 900px;
+    background: #f6f9f9;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.showcase .sw1{
+    width: 100%;
+    height: 233px;
+}
+.showcase .sw1 h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 22px;
+    color: #2d3950;
+    font-size: 41px;
+    font-weight: 400;
+}
+.showcase .sw1 p{
+    margin: 0;
+    text-align: center;
+    color: #979797;
+    font-size: 15px;
+    font-weight: 400;
+}
+.showcase .sw2{
+    width: 960px;
+    height: 550px;
+}
+.showcase .sw2 .sw2m{
+    width: 960px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.showcase .sw2 .sw2m img{
+    width: 300px;
+    height: 260px;
+}
+.showcase .sw2 .sw2ml{width: 100%; height: 30px;}
+.showcase .sw3{width: 100%; height: 116px;}
+/*......part-5 showcase END.............. */
+/*......part-6 footer START..............*/
+.footer{
+    width: 1320px;
+    height: 700px;
+    /* opacity: .9; */
+    margin: 0 auto;
+    position: relative;
+}
+.footer .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(45, 57, 80, .9);
+    
+}
+.footer .overlay h2{
+    margin: 0;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 75px;
+    padding-bottom: 21px;
+}
+.footer .overlay p{
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    padding-bottom: 51px;
+}
+.footer .overlay form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .overlay input{
+    width: 515px;
+    height: 22px;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 3px;
+    border-color: #999999;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: none;
+}
+.footer .overlay input::placeholder{
+    color: #929394;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer .overlay input:focus{
+    outline: 0;
+}
+.footer .overlay textarea{
+    width: 515px;
+    height: 112px;
+    background: transparent;
+    border-radius: 3px;
+    border-color: #999999;
+    padding: 25px 20px;
+    box-shadow: none;
+}
+.footer .overlay textarea::placeholder{
+    color: #929394;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer .overlay textarea:focus{
+    outline: 0;
+}
+.footer img{
+    width: 100%;
+    height: 100%;
+}
+.footer .sent{
+    width: 515px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .sent .box{
+    width: 40%;
+    position: relative;
+}
+.footer .sent .pt15{
+    padding-top: 15px;
+}
+.footer .sent .box .checkbox{
+   margin: 0;
+   position: absolute;
+   top: 15%;
+   right: 100%;
+   transform: translateX(53%);
+}
+.footer .sent .box .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.footer .sent .box .btn a{
+    display: inline-block;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    padding: 16px 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+}
+.footer .sent .box .btn a:hover{
+    background: #15a4fa;
+    border-color: #ffffff;
+}
+ /*.....part-6 footer END................*/
+/*......part-7 copyright START..........*/
+.copyr{
+    width: 1320px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    background: #f6f9f9;
+}
+.copyr .copyrc{
+    width: 50%;
+    height: 100%;
+}
+.copyr .copyrc h6{
+    margin: 0;
+    padding-left: 220px;
+    padding-top: 33px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9f9f9f;
+}
+.copyr .copyrlinks{
+    width: 50%;
+    height: 100%;
+    background: #f6f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyr .copyrlinks .links{
+    width: 175px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyr .copyrlinks .links i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #15a4fa;
+    text-align: center;
+    font-size: 40px;
+}
+/*......part-7 copyright END............*/
